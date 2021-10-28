@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor"
+    tools:context=".fragment.IconsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/backgroundColor"
+        app:elevation="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="12dp"
+            app:layout_scrollFlags="scroll|enterAlways">
+
+            <TextView
+                android:id="@+id/adaptation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorAccent"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_insert_emoticon_black_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/adapter_number"/>
+
+            <TextView
+                android:id="@+id/notAdaptation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/adaptation"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_mood_bad_black_24dp"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:text="@string/adapter_not"/>
+
+            <ImageButton
+                android:id="@+id/selectAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_select_all_black_24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        </RelativeLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/zipLoad"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:indeterminate="false"
+        android:progress="0"
+        android:visibility="gone"
+        android:max="100"
+        app:mpb_progressStyle="horizontal"
+        app:mpb_setBothDrawables="true"
+        app:mpb_useIntrinsicPadding="false"
+        style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+
+    <org.andcreator.iconpack.view.FastScrollRecyclerView
+        android:id="@+id/recyclerApps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:fastScrollHideDelay="1200"
+        app:fastScrollAlwaysEnabled="false"
+        app:fastScrollPopupTextColor="@color/white"/>
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/sendRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginStart="@dimen/fab_margin"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_marginBottom="70dp"
+        android:text="已选择 0"
+        android:backgroundTint="@color/colorAccent"
+        app:icon="@drawable/ic_send_white_24dp"
+        app:iconGravity="start"
+        app:iconTint="@color/white"
+        app:iconPadding="6dp"
+        android:textColor="@color/white"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

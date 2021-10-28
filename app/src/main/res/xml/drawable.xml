@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+
+    <!--title="分类,这里以首字母为例"-->
+    <!--<item drawable="图标文件名字(只能含有小写字母，下划线，数字，必须以字母开头)，不含后缀名" />-->
+
+    <category title="系统通用" />
+    <item drawable="ic_phone" name="电话"  />
+    <item drawable="ic_mms" name="短信" />
+    <item drawable="ic_contacts" name="联系人" />
+    <item drawable="ic_calendar" name="日历" />
+    <item drawable="ic_camera" name="相机" />
+    <item drawable="ic_calculator" name="计算器" />
+    <item drawable="ic_clock" name="时钟" />
+    <item drawable="ic_download" name="下载" />
+    <item drawable="ic_appstore" name="软件商店" />
+    <item drawable="ic_note" name="便签" />
+    <item drawable="ic_weather" name="天气" />
+    <item drawable="ic_mail" name="邮件" />
+    <item drawable="ic_browser" name="浏览器" />
+    <item drawable="ic_control" name="系统设置" />
+    <item drawable="ic_gallery" name="图库" />
+    <item drawable="ic_file" name="文件管理" />
+    <item drawable="ic_camera" name="相机" />
+    <item drawable="ic_music" name="音乐" />
+    <item drawable="ic_fm" name="广播" />
+    <item drawable="ic_compass" name="指南针" />
+    <item drawable="ic_recoeder" name="录音" />
+    <item drawable="ic_simcard" name="SIM工具" />
+    <item drawable="ic_health" name="健康" />
+    <item drawable="ic_theme" name="主题" />
+    <item drawable="ic_durecorder" name="录屏" />
+    <item drawable="ic_security" name="手机管家" />
+    <item drawable="ic_gamecenter" name="游戏中心" />
+    <item drawable="ic_finddevices" name="查找手机" />
+
+
+
+
+
+
+
+
+    <category title="谷歌"/>
+    <item drawable="ic_chrome" name="Chrome" />
+    <item drawable="ic_music" name="Play 音乐" />
+    <item drawable="ic_gamecenter" name="Play 游戏" />
+    <item drawable="ic_books" name="Play 图书" />
+    <item drawable="ic_mivideo" name="Play 电影" />
+    <item drawable="ic_appstore" name="Play 商店" />
+
+
+    <category title="腾讯系"/>
+    <item drawable="ic_qq" name="QQ" />
+    <item drawable="ic_wechat" name="微信" />
+    <item drawable="ic_qqbrowser" name="QQ浏览器" />
+    <item drawable="ic_qzone" name="QQ空间" />
+    <item drawable="ic_qqmusic" name="QQ音乐" />
+    <item drawable="ic_quark" name="夸克" />
+    <item drawable="ic_qqvideo" name="腾讯视频" />
+    <item drawable="ic_qqfc" name="QQ飞车" />
+    <item drawable="ic_pubg" name="绝地求生" />
+    <item drawable="ic_qqmail" name="QQ邮箱" />
+    <item drawable="ic_qqvideo2" name="腾讯视频" />
+    <item drawable="ic_qqwemeet" name="腾讯会议" />
+    <item drawable="ic_qqweread" name="微信读书" />
+    <item drawable="ic_qqanquanzhonxin" name="QQ安全中心" />
+    <item drawable="ic_qqdownloader" name="应用宝" />
+    <item drawable="ic_gamecf" name="穿越火线：枪战王者" />
+    <item drawable="ic_tim" name="Tim" />
+
+
+
+
+    <category title="阿里系"/>
+    <item drawable="ic_taobao" name="淘宝" />
+    <item drawable="ic_neteasecloud" name="网易云音乐" />
+    <item drawable="ic_youku" name="优酷" />
+    <item drawable="ic_alipay" name="阿里系" />
+    <item drawable="ic_hema" name="盒马" />
+    <item drawable="ic_elema" name="饿了吗" />
+    <item drawable="ic_fleamarket" name="闲鱼" />
+    <item drawable="ic_amap" name="高德地图" />
+    <item drawable="ic_taobaolite" name="淘宝特价版" />
+    <item drawable="ic_cainiao" name="菜鸟裹裹" />
+    <item drawable="ic_dinding" name="钉钉" />
+    <item drawable="ic_ali1688" name="阿里巴巴" />
+    <item drawable="ic_flypig" name="飞猪" />
+
+
+
+    <category title="杂七杂八"/>
+    <item drawable="ic_substratum" name="substratum主题" />
+    <item drawable="ic_hjtv" name="韩剧TV" />
+    <item drawable="ic_baiduwangpan" name="百度网盘" />
+    <item drawable="ic_bilibili" name="bilibili" />
+    <item drawable="ic_coc" name="部落冲突" />
+    <item drawable="ic_jianguoyun" name="坚果云" />
+    <item drawable="ic_jianshu" name="简书" />
+    <item drawable="ic_tibackup" name="钛备份" />
+    <item drawable="ic_duokanreader" name="阅读" />
+    <item drawable="ic_unionpay" name="云闪付" />
+    <item drawable="ic_fx" name="FX" />
+    <item drawable="ic_galaxy" name="Wear" />
+    <item drawable="ic_wuba" name="58" />
+    <item drawable="ic_b612" name="B612" />
+    <item drawable="ic_cmb" name="招商银行" />
+    <item drawable="ic_gudong" name="咕咚" />
+    <item drawable="ic_edge" name="edge" />
+    <item drawable="ic_esexplorer" name="ES文件管理器" />
+    <item drawable="ic_hexin" name="同花顺" />
+    <item drawable="ic_homelink" name="链家" />
+    <item drawable="ic_icbc" name="中国工商银行" />
+    <item drawable="ic_idm" name="IDM" />
+    <item drawable="ic_javiewer" name="JAViewer" />
+    <item drawable="ic_neteasekaola" name="网易考拉海购" />
+    <item drawable="ic_keep" name="Keep" />
+    <item drawable="ic_faceu" name="Faceu激萌" />
+    <item drawable="ic_logcat" name="MatLog" />
+    <item drawable="ic_liepin" name="猎聘" />
+    <item drawable="ic_momo" name="陌陌" />
+    <item drawable="ic_meitumtxx" name="美图秀秀" />
+    <item drawable="ic_ofo" name="ofo共享单车" />
+    <item drawable="ic_picsart" name="PicsArt" />
+    <item drawable="ic_smzdm" name="什么值得买" />
+    <item drawable="ic_suning" name="苏宁易购" />
+    <item drawable="ic_tantan" name="探探" />
+    <item drawable="ic_hupu" name="虎扑" />
+    <item drawable="ic_ttpic" name="天天P图" />
+    <item drawable="ic_uc" name="UC浏览器" />
+    <item drawable="ic_wifilocating" name="WiFi万能钥匙" />
+    <item drawable="ic_wps" name="wps office" />
+    <item drawable="ic_xiachufang" name="下厨房" />
+    <item drawable="ic_neteaseyanxuan" name="网易严选" />
+    <item drawable="ic_cmcc" name="移动" />
+    <item drawable="ic_12306" name="铁路12306" />
+    <item drawable="ic_jd" name="京东" />
+    <item drawable="ic_karaoke" name="全民K歌" />
+    <item drawable="ic_beijingykt" name="北京一卡通" />
+    <item drawable="ic_qunar" name="去哪儿旅行" />
+    <item drawable="ic_vipshop" name="唯品会" />
+    <item drawable="ic_ximalaya" name="喜马拉雅FM" />
+    <item drawable="ic_dianping" name="大众点评" />
+    <item drawable="ic_alitmalljl" name="天猫精灵" />
+    <item drawable="ic_ovitalmap" name="奥维互动地图" />
+    <item drawable="ic_xiaohongshu" name="小红书" />
+    <item drawable="ic_ccb" name="中国建设银行" />
+    <item drawable="ic_bilibilistudio" name="必剪" />
+    <item drawable="ic_ireader" name="掌阅" />
+    <item drawable="ic_voicesearch" name="语音搜索" />
+    <item drawable="ic_ctripxc" name="携程" />
+    <item drawable="ic_douyutv" name="斗鱼" />
+    <item drawable="ic_yoho" name="Yoho!Buy有货" />
+    <item drawable="ic_youdaotranslator" name="网易有道词典" />
+    <item drawable="ic_mangguotv" name="芒果TV" />
+    <item drawable="ic_chaozipai" name="潮自拍" />
+    <item drawable="ic_pp" name="澎湃新闻" />
+    <item drawable="ic_airbnb" name="Airbnb" />
+    <item drawable="ic_maoyan" name="猫眼电影" />
+    <item drawable="ic_baidumap" name="百度地图" />
+    <item drawable="ic_baiduwaimai" name="百度外卖" />
+    <item drawable="ic_baiduinput" name="百度输入法" />
+    <item drawable="ic_zhihu" name="知乎" />
+    <item drawable="ic_mitalk" name="米聊" />
+    <item drawable="ic_neteasenews" name="网易新闻" />
+    <item drawable="ic_meituan" name="美团" />
+    <item drawable="ic_meiyancamera" name="美颜相机" />
+    <item drawable="ic_ziru" name="自如" />
+    <item drawable="ic_hupu2" name="虎扑" />
+    <item drawable="ic_douban" name="豆瓣" />
+    <item drawable="ic_wandoujia" name="豌豆荚" />
+    <item drawable="ic_xunlei_kuainiao" name="迅雷" />
+    <item drawable="ic_netease_mail" name="网易邮箱" />
+    <item drawable="ic_kuwomusic" name="酷我音乐" />
+    <item drawable="ic_homelink2" name="链家" />
+    <item drawable="ic_weibo" name="微博" />
+    <item drawable="ic_kuaishou" name="快手" />
+    <item drawable="ic_dkjt" name="带壳截图" />
+    <item drawable="ic_douyin" name="抖音" />
+    <item drawable="ic_pdd" name="拼多多" />
+    <item drawable="ic_news" name="新闻资讯" />
+    <item drawable="ic_iqiyi" name="爱奇艺" />
+    <item drawable="ic_baiduhi" name="Baidu Hi" />
+    <item drawable="ic_ykq" name="遥控器" />
+    <item drawable="ic_everphoto" name="时光相册" />
+    <item drawable="ic_mooc" name="MOOC" />
+    <item drawable="ic_rrmovie" name="人人影视" />
+    <item drawable="ic_homework" name="作业帮" />
+    <item drawable="ic_xuexiqiangguo" name="学习强国" />
+    <item drawable="ic_dcd" name="懂车帝" />
+    <item drawable="ic_xgmovie" name="西瓜视频" />
+    <item drawable="ic_12123" name="交管12123" />
+    <item drawable="ic_musicztlgc" name="状态栏歌词" />
+    <item drawable="ic_boss" name="Boss直聘" />
+    <item drawable="ic_soul" name="Soul" />
+    <item drawable="ic_mdb" name="买单吧" />
+    <item drawable="ic_rrmovie" name="人人影视" />
+    <item drawable="ic_wechatwk" name="企业微信" />
+    <item drawable="ic_jianying" name="剪映" />
+    <item drawable="ic_xuexiqiangguo" name="学习强国" />
+    <item drawable="ic_ajk" name="安居客" />
+    <item drawable="ic_xiaoyuansouti" name="小猿搜题" />
+    <item drawable="ic_dedao" name="得到" />
+    <item drawable="ic_kuaiduizuoye" name="快对作业" />
+    <item drawable="ic_qiche" name="汽车之家" />
+    <item drawable="ic_taobao_lite" name="淘宝特价版" />
+    <item drawable="ic_dianxing" name="电信营业厅" />
+    <item drawable="ic_wangshangbank" name="网商银行" />
+    <item drawable="ic_unicom" name="联通手机营业厅" />
+    <item drawable="ic_huyatv" name="虎牙直播" />
+    <item drawable="ic_xiguashiping" name="西瓜视频" />
+    <item drawable="ic_tieba" name="百度贴吧" />
+    <item drawable="ic_jiakao" name="驾考宝典" />
+    <item drawable="ic_apkpure" name="APKPure" />
+    <item drawable="ic_hpoi" name="Hpoi" />
+    <item drawable="ic_binzhou" name="滨州掌上公交" />
+    <item drawable="ic_kuwomusic" name="酷狗音乐" />
+    <item drawable="ic_mideahome" name="美的美居" />
+    <item drawable="ic_qiandao" name="千岛" />
+    <item drawable="ic_shihuo" name="识货" />
+    <item drawable="ic_sogouinput" name="搜狗输入法" />
+    <item drawable="ic_uniqlo" name="优衣库" />
+    <item drawable="ic_tongcheng" name="同程旅游" />
+    <item drawable="ic_see" name="See" />
+    <item drawable="ic_via" name="Via" />
+    <item drawable="ic_purewriter" name="纯纯写作" />
+    <item drawable="ic_daodai" name="倒带" />
+    <item drawable="ic_dmzj" name="动漫之家" />
+    <item drawable="ic_coopapk" name="酷安" />
+    <item drawable="ic_woodbox" name="一个木函" />
+    <item drawable="ic_sai" name="SAI" />
+    <item drawable="ic_lxmusic" name="落雪音乐" />
+    <item drawable="ic_photoeditor" name="照片编辑器" />
+    <item drawable="ic_mxplayer" name="MX 播放器" />
+    <item drawable="ic_qmd" name="QMD" />
+    <item drawable="ic_appstore" name="软件商店" />
+    <item drawable="ic_geometricweather" name="几何天气" />
+    <item drawable="ic_saltmusic" name="椒盐音乐" />
+    <item drawable="ic_mikan" name="蜜柑计划" />
+    <item drawable="ic_rujia" name="首旅如家" />
+    <item drawable="ic_aigodisk" name="aigo_disk" />
+    <item drawable="ic_anxcamerapro" name="anxcamera_pro" />
+    <item drawable="ic_csdn" name="csdn" />
+    <item drawable="ic_microgsettings" name="microg_settings" />
+    <item drawable="ic_pureicon" name="pureicon" />
+
+
+
+    <category title="小米"/>
+    <item drawable="ic_mishop" name="小米商城" />
+    <item drawable="ic_xiaomiqianbao" name="钱包" />
+    <item drawable="ic_xiaomitonghua" name="小米通话" />
+    <item drawable="ic_mitv" name="小米电视助手" />
+    <item drawable="ic_mihome" name="米家" />
+    <item drawable="ic_mivoice" name="小爱同学" />
+    <item drawable="ic_toutiao" name="今日头条" />
+    <item drawable="ic_mimico" name="小爱音箱" />
+    <item drawable="ic_mimymi" name="小米社区" />
+    <item drawable="ic_huanji" name="小米换机" />
+    <item drawable="ic_mivideo" name="小米视频" />
+    <item drawable="ic_mishop" name="小米商城国际版" />
+    <item drawable="ic_mijr" name="小米金融" />
+    <item drawable="ic_xiaomiqianbao" name="小米钱包" />
+    <item drawable="ic_youpin" name="米家有品" />
+    <item drawable="ic_mibbs" name="小米社区" />
+    <item drawable="ic_miwallet" name="小米钱包" />
+    <item drawable="ic_misport" name="小米运动" />
+
+
+    <category title="一加"/>
+    <item drawable="ic_heytapcloud" name="一加云服务" />
+    <item drawable="ic_oneplusbackuprestore" name="一加搬家" />
+    <item drawable="ic_oneplusbbs" name="一加社区" />
+    <item drawable="ic_heytapmusic" name="一加音乐" />
+    <item drawable="ic_heytapspeechassist" name="小布助手" />
+    <item drawable="ic_oneplusmarket" name="商店" />
+    <item drawable="ic_onepluscard" name="一加卡券" />
+
+
+
+
+
+    <category title="XP/root"/>
+    <item drawable="ic_bilibiliroaming" name="哔哩漫游" />
+    <item drawable="ic_magisk" name="magisk" />
+    <item drawable="ic_mt" name="MT管理器" />
+    <item drawable="ic_lsp" name="LSPosed" />
+    <item drawable="ic_scene4" name="scene4" />
+    <item drawable="ic_aiwanji" name="爱玩机工具箱" />
+    <item drawable="ic_quickenergy" name="秋风" />
+    <item drawable="ic_freeformsplash" name="米窗模块" />
+    <item drawable="ic_camera2" name="谷歌相机" />
+    <item drawable="ic_gobool" name="黑风刷新率修改器" />
+    <item drawable="ic_skymi" name="SkyMi模式切换" />
+    <item drawable="ic_chimi" name="ChiMi" />
+    <item drawable="ic_tongcheng" name="同程旅行" />
+
+
+    <category title="游戏"/>
+    <item drawable="ic_game_kxxxl" name="开心消消乐" />
+    <item drawable="ic_onmyoji" name="阴阳师" />
+
+
+    <!-- 修改完成后请复制到assets目录 -->
+</resources>
