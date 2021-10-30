@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff94c2</color>
+    <color name="colorPrimaryDark">#f06292</color>
+
+    <!-- 主题颜色 -->
+    <color name="colorAccent">#ff94c2</color>
+    <color name="colorAccentTap">#33F06292</color>
+    <color name="backgroundColor">#202124</color>
+    <color name="dialogBackground">#424242</color>
+    <color name="transparentNavigation">#f236373a</color>
+    <color name="backgroundDark">#36373a</color>
+    <color name="white">#ffffff</color>
+    <color name="tileColor">#3C4043</color>
+    <color name="phoneScreen">#36373a</color>
+    <color name="phoneButton">#37383c</color>
+    <color name="phoneNotch">#202124</color>
+    <color name="colorAccentBackground">#202124</color>
+
+    <!-- 字体颜色 -->
+    <color name="black_text">#e8eaed</color>
+    <color name="text_color">#9aa0a6</color>
+
+    <color name="black_line">#9aa0a6</color>
+    <color name="strokeColor">#5F6368</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="windowBackground">#00000000</color>
+    <color name="transitionBackground">#00000000</color>
+    <color name="fastscroll_thumb_inactive_color">#666666</color>
+    <color name="fastscroll_thumb_active_color">#ff94c2</color>
+
+
+    <color name="otherBubbleColor">#7e57c2</color>
+    <color name="otherBubbleColor_a">#9575cd</color>
+    <color name="otherBubbleColor_b">#b39ddb</color>
+    <color name="black_blue_text">#747e8a</color>
+    <color name="black_blue_text_a">#434652</color>
+</resources>
