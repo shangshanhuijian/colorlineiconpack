@@ -8,7 +8,7 @@
 
 ### 写在前面
 很多次实验最后在众多风格里选定了亚克力和线性风格来绘制图标包，亚克力风格2020年在佳木斯已经制作完成（虽然不是那么好看，但是让我懂得了不少，illustrator就是在那个时候学的，还有XD），2021年的线性风格终于要来啦！主要是在白城和北戴河制作的，感觉很不错！
-### 💡 以下就是官方说明了：
+### 💡 以下就是官方说明了（这里直接应用）：
 
 您需要在设备上安装 [Android Studio](https://developer.android.com/studio)
 
@@ -111,8 +111,8 @@ versionName "1.0"
 
 #### 😜 软件截图
 
-<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/Screenshot_20200429-102200.jpg"/>
+<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/软件首页.jpg"/>
 
-<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/Screenshot_20200429-102803.jpg"/>
+<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/适配图例.jpg"/>
 
 🤫 如果你是一名专业的开发者，看得出来代码写的很烂，千万别说出来！
