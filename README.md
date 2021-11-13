@@ -111,8 +111,8 @@ versionName "1.0"
 
 #### 😜 软件截图
 
-<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/软件首页.jpg"/>
+<img src="https://github.com/shangshanhuijian/colorlineiconpack/blob/master/Screenshot/软件首页.jpg"/>
 
-<img src="https://raw.githubusercontent.com/hujincan/AndIconpack/master/Screenshot/适配图例.jpg"/>
+<img src="https://github.com/shangshanhuijian/colorlineiconpack/blob/master/Screenshot/适配图例.jpg"/>
 
 🤫 如果你是一名专业的开发者，看得出来代码写的很烂，千万别说出来！
