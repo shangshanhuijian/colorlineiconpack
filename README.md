@@ -1,5 +1,7 @@
 # colorline(彩绘图标图标包)
 
+CH | [EN](https://github.com/shangshanhuijian/colorlineiconpack/blob/master/README_en.md)
+
 [app下载](https://www.coolapk.com/apk/colorline.huijian.icon)
 
 彩绘图标模板来源于And图标包模板，原项目地址啊：
