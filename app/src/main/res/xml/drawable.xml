@@ -244,6 +244,27 @@
     <item drawable="ic_csdn" name="csdn" />
     <item drawable="ic_microgsettings" name="microg_settings" />
     <item drawable="ic_pureicon" name="pureicon" />
+    <item drawable="ic_ninegame" name="九游" />
+    <item drawable="ic_kuaikan" name="快看" />
+    <item drawable="ic_missevan" name="猫耳FM" />
+    <item drawable="ic_qingzhuo" name="清浊" />
+    <item drawable="ic_ecloud" name="天翼云盘" />
+    <item drawable="ic_youavideo" name="一刻相册" />
+    <item drawable="ic_kwai" name="一甜相机" />
+    <item drawable="ic_elpmobile" name="智学网学生端" />
+    <item drawable="ic_bamboopaper" name="BambooPaper" />
+    <item drawable="ic_gif" name="gif助手" />
+    <item drawable="ic_github12" name="github" />
+    <item drawable="ic_lofter" name="lofter" />
+    <item drawable="ic_alicloud" name="阿里云盘" />
+    <item drawable="ic_pipphotos" name="果仁相册" />
+    <item drawable="ic_mcloud" name="和彩云网盘" />
+
+
+
+
+
+
 
 
 
@@ -266,6 +287,8 @@
     <item drawable="ic_mibbs" name="小米社区" />
     <item drawable="ic_miwallet" name="小米钱包" />
     <item drawable="ic_misport" name="小米运动" />
+    <item drawable="ic_xiaomiscanner" name="扫一扫" />
+
 
 
     <category title="一加"/>
@@ -276,6 +299,28 @@
     <item drawable="ic_heytapspeechassist" name="小布助手" />
     <item drawable="ic_oneplusmarket" name="商店" />
     <item drawable="ic_onepluscard" name="一加卡券" />
+
+    <category title="samsung"/>
+    <item drawable="ic_samsunghealthdata" name="三星步数管理" />
+    <item drawable="ic_sreminder" name="三星生活助手" />
+    <item drawable="ic_arzonelauncher" name="AR区" />
+    <item drawable="ic_bixby" name="bixby" />
+    <item drawable="ic_visionintelligence" name="Bixby视觉" />
+    <item drawable="ic_easymover" name="s换机助手" />
+
+
+
+
+
+
+    <category title="microsoft"/>
+    <item drawable="ic_microsoft_office" name="microsoft office" />
+    <item drawable="ic_onedrive" name="onedrive" />
+    <item drawable="ic_onenote" name="onednote" />
+
+
+
+
 
 
 

@@ -15,7 +15,7 @@
   ~ limitations under the License.
   ~
   ~ Special thanks to the project contributors and collaborators
-  ~ 	https://github.com/jahirfiquitiva/IconShowcase#special-thanks
+  ~ 	https://github.com/shangshanhuijian/colorlineiconpack
   -->
 
 <!-- 如果想要适配POCO这样的Launcher，必须把drawable节点写在component的后面 -->
@@ -26,7 +26,7 @@
     <!-- 彩色线条icon -->
     <item component="ComponentInfo{colorline.huijian.icon/org.andcreator.iconpack.activity.MainActivity}" drawable="ic_colorline" />
     <!-- 系统设置部分 -->
-    <!--软件商店 -->
+    <!--软件商店/play商店 -->
     <item component="ComponentInfo{cn.nubia.neostore/cn.nubia.neostore.ui.start.AppStartActivity}" drawable="ic_appstore" />
     <item component="ComponentInfo{com.bbk.appstore/com.bbk.appstore.ui.AppStore}" drawable="ic_appstore" />
     <item component="ComponentInfo{com.htcmarket/com.htc.android.sense.activity.HelpActivity}" drawable="ic_appstore" />
@@ -38,6 +38,7 @@
     <item component="ComponentInfo{com.sec.android.app.samsungapps/com.sec.android.app.samsungapps.SamsungAppsMainActivity}" drawable="ic_appstore" />
     <item component="ComponentInfo{com.smartisanos.appstore/com.smartisanos.appstore.AppStoreActivity}" drawable="ic_appstore" />
     <item component="ComponentInfo{com.xiaomi.market/com.xiaomi.market.ui.MarketTabActivity}" drawable="ic_appstore" />
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="ic_appstore" />
     <!--download -->
     <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadActivity}" drawable="ic_download" />
     <item component="ComponentInfo{com.android.providers.downloads.ui/com.android.providers.downloads.ui.DownloadList}" drawable="ic_download" />
@@ -68,6 +69,7 @@
     <item component="ComponentInfo{com.sonymobile.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.android.dialer/com.android.dialer.app.DialtactsActivity}" drawable="ic_phone" />
     <item component="ComponentInfo{com.oneplus.dialer/com.android.dialer.oneplus.activity.OPDialtactsActivity}" drawable="ic_phone" />
+    <item component="ComponentInfo{com.samsung.android.dialer/com.samsung.android.dialer.DialtactsActivity}" drawable="ic_phone" />
     <!-- 便签笔记 -->
     <item component="ComponentInfo{cn.nubia.notepad.preset/cn.nubia.notepad.NoteListActivity}" drawable="ic_note" />
     <item component="ComponentInfo{com.android.notes/com.android.notes.Notes}" drawable="ic_note" />
@@ -219,6 +221,7 @@
     <item component="ComponentInfo{com.samsung.android.calendar/com.android.calendar.AllInOneActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.zui.calendar/com.zui.calendar.MainActivity}" drawable="ic_calendar" />
     <item component="ComponentInfo{com.blackberry.calendar/com.blackberry.calendar.AllInOneActivity}" drawable="ic_calendar" />
+    <item component="ComponentInfo{com.samsung.android.calendar/com.samsung.android.app.calendar.activity.MainActivity}" drawable="ic_calendar" />
     <!-- Concise Calendar -->
     <item component="ComponentInfo{com.concise.mycalendar/com.concise.mycalendar.activity.CalendarMainActivity}" drawable="ic_calendar" />
     <!-- 设置 -->
@@ -268,7 +271,8 @@
     <item component="ComponentInfo{com.android.contacts/com.android.contacts.mainlist.PeopleActivity}" drawable="ic_contacts" />
     <item component="ComponentInfo{com.zui.contacts/com.android.newcontact.vl.activity.XLaunchActivity}" drawable="ic_contacts" />
     <item component="ComponentInfo{com.oneplus.contacts/com.oneplus.contacts.activities.OPPeopleActivity}" drawable="ic_contacts" />
-    <!-- 图库 -->
+    <item component="ComponentInfo{com.samsung.android.app.contacts/com.samsung.android.contacts.contactslist.PeopleActivity}" drawable="ic_contacts" />
+    <!-- 图库\相册 -->
     <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{cn.nubia.gallery3d/cn.nubia.gallery3d.app.Gallery}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.android.gallery3d/com.android.gallery3d.app.Gallery}" drawable="ic_gallery" />
@@ -297,7 +301,7 @@
     <item component="ComponentInfo{com.gionee.gallery/com.gionee.gallery.sb.app.GnGallery}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.motorola.MotGallery2/com.android.gallery3d.app.GalleryActivity}" drawable="ic_gallery" />
     <item component="ComponentInfo{com.simplemobiletools.gallery/com.simplemobiletools.gallery.activities.SplashActivity.Orange}" drawable="ic_gallery" />
-
+    <item component="ComponentInfo{com.sec.android.gallery3d/com.samsung.android.gallery.app.activity.GalleryActivity}" drawable="ic_gallery" />
     <!-- 图库 -->
     <item component="ComponentInfo{com.simplemobiletools.gallery.pro/com.simplemobiletools.gallery.pro.activities.SplashActivity.Orange}" drawable="ic_gallery" />
     <!-- 文件 -->
@@ -334,6 +338,7 @@
     <item component="ComponentInfo{com.mi.android.globalFileexplorer/com.android.fileexplorer.FileExplorerTabActivity}" drawable="ic_file" />
     <item component="ComponentInfo{com.gionee.filemanager/com.gionee.filemanager.FileExplorerTabActivity}" drawable="ic_file" />
     <item component="ComponentInfo{com.crdroid.filemanager/com.amaze.filemanager.activities.MainActivity}" drawable="ic_file" />
+    <item component="ComponentInfo{com.sec.android.app.myfiles/com.sec.android.app.myfiles.external.ui.MainActivity}" drawable="ic_file" />
     <!-- 相机 -->
     <item component="ComponentInfo{org.lineageos.snap/com.android.camera.CameraLauncher}" drawable="ic_camera" />
     <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="ic_camera" />
@@ -511,6 +516,7 @@
     <item component="ComponentInfo{com.youku.phone/com.youku.phone.ActivityWelcome}" drawable="ic_youku" />
     <!-- 阅读 -->
     <item component="ComponentInfo{com.duokan.reader/com.duokan.reader.DkReaderActivity}" drawable="ic_duokanreader" />
+    <item component="ComponentInfo{com.mci.smagazine/com.chaozh.iReader.ui.activity.WelcomeActivity}" drawable="ic_duokanreader" />
     <!-- 云闪付 -->
     <item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityWelcome}" drawable="ic_unionpay" />
     <item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="ic_unionpay" />
@@ -1244,6 +1250,65 @@
     <item component="ComponentInfo{com.miui.huanji/com.miui.huanji.MainActivity}" drawable="ic_xiaomihuanji" />
     <!-- TIM -->
     <item component="ComponentInfo{com.tencent.tim/com.tencent.mobileqq.activity.SplashActivity}" drawable="ic_tim" />
+    <!-- 晋江小说阅读 -->
+    <item component="ComponentInfo{com.jjwxc.reader/com.example.jinjiangshucheng.AppPrivacyActivity}" drawable="ic_jinjiangshucheng" />
+    <!-- 九游 -->
+    <item component="ComponentInfo{cn.ninegame.gamemanager/cn.ninegame.gamemanager.business.common.activity.LaunchActivity}" drawable="ic_ninegame" />
+    <!-- 快看 -->
+    <item component="ComponentInfo{com.kuaikan.comic/com.kuaikan.main.LaunchActivity}" drawable="ic_kuaikan" />
+    <!-- 猫耳FM -->
+    <item component="ComponentInfo{cn.missevan/cn.missevan.activity.SplashActivity}" drawable="ic_missevan" />
+    <!-- 清浊 -->
+    <item component="ComponentInfo{com.farplace.qingzhuo/com.farplace.qingzhuo.views.SplashActivity}" drawable="ic_qingzhuo" />
+    <!-- 三星健康步数管理 -->
+    <item component="ComponentInfo{com.samsung.android.app.health.dataviewer/com.specher.shealthplus.MainActivity}" drawable="ic_samsunghealthdata" />
+    <!-- 三星生活助手 -->
+    <item component="ComponentInfo{com.samsung.android.app.sreminder/com.samsung.android.app.sreminder.SReminderActivity}" drawable="ic_sreminder" />
+    <!-- 天翼云盘 -->
+    <item component="ComponentInfo{com.cn21.ecloud/com.cn21.ecloud.activity.login.StartActivity}" drawable="ic_ecloud" />
+    <!-- 一刻相册 -->
+    <item component="ComponentInfo{com.baidu.youavideo/com.baidu.youavideo.app.ui.SplashActivity}" drawable="ic_youavideo" />
+    <!-- 一甜相机 -->
+    <item component="ComponentInfo{com.kwai.m2u/com.kwai.m2u.launch.LaunchActivity}" drawable="ic_kwai" />
+    <!-- 智学网学生端 -->
+    <item component="ComponentInfo{com.iflytek.elpmobile.student/com.iflytek.elpmobile.student.ui.SplashActivity}" drawable="ic_elpmobile" />
+    <!-- AR 区 -->
+    <item component="ComponentInfo{com.samsung.android.arzone/com.samsung.android.arzone.ARZoneLauncher}" drawable="ic_arzonelauncher" />
+    <!-- Bamboo Paper -->
+    <item component="ComponentInfo{com.wacom.bamboopapertab/com.wacom.bamboopapertab.LauncherActivity}" drawable="ic_bamboopaper" />
+    <!-- Bixby -->
+    <item component="ComponentInfo{com.samsung.android.bixby.agent/com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity}" drawable="ic_bixby" />
+    <!-- Bixby 视觉 -->
+    <item component="ComponentInfo{com.samsung.android.visionintelligence/com.samsung.android.visionintelligence.main.DummyActivity}" drawable="ic_visionintelligence" />
+    <!-- Gif 助手 -->
+    <item component="ComponentInfo{com.didikee.gifparser/com.gif.SplashActivity}" drawable="ic_gif" />
+    <!-- GitHub -->
+    <item component="ComponentInfo{com.github.android/com.github.android.activities.MainActivity}" drawable="ic_github12" />
+    <!-- LOFTER -->
+    <item component="ComponentInfo{com.lofter.android/com.lofter.android.global.splash.HomeActivity}" drawable="ic_lofter" />
+    <!-- Microsoft Office -->
+    <item component="ComponentInfo{com.microsoft.office.officehub/com.microsoft.office.officesuite.OfficeSuiteActivity}" drawable="ic_microsoft_office" />
+    <!-- OneDrive -->
+    <item component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}" drawable="ic_onedrive" />
+    <!-- OneNote -->
+    <item component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}" drawable="ic_onenote" />
+    <!-- RE管理器 -->
+    <item component="ComponentInfo{com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer}" drawable="ic_rootexplorer" />
+    <!-- S 换机助手 -->
+    <item component="ComponentInfo{com.sec.android.easyMover/com.sec.android.easyMover.DistributionActivity}" drawable="ic_easymover" />
+    <!-- Samsung Flow -->
+    <item component="ComponentInfo{com.samsung.android.galaxycontinuity/com.samsung.android.galaxycontinuity.SplashActivity}" drawable="ic_samsung_flow" />
+    <!-- 阿里云盘 -->
+    <item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.biz.splash.SplashActivity}" drawable="ic_alicloud" />
+    <!-- 果仁相册 -->
+    <item component="ComponentInfo{io.zhuliang.pipphotos/io.zhuliang.pipphotos.ui.main.MainActivity2}" drawable="ic_pipphotos" />
+    <!-- 和彩云网盘 -->
+    <item component="ComponentInfo{com.chinamobile.mcloud/com.chinamobile.mcloud.client.ui.logo.LogoActivity}" drawable="ic_mcloud" />
+    <!-- 扫一扫 -->
+    <item component="ComponentInfo{com.xiaomi.scanner/com.xiaomi.scanner.app.ScanActivity}" drawable="ic_xiaomiscanner" />
+
+
+
     <!-- 修改完成后请复制到assets目录 -->
 
 </resources>
